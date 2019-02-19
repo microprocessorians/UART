@@ -21,3 +21,4 @@ The UART system can tolerate a moderate amount of system noise without losing an
 | signal | Type | Description |
 | ------ | ------ | ------ |
 | I_CLK | Input CLK |
+| coming soon | coming soon |
