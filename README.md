@@ -8,3 +8,12 @@ Since the data stream has no clock, data recovery depends on the transmitting de
 
 2) Increase the accuracy and decrease the effect of the noise:
 The UART system can tolerate a moderate amount of system noise without losing any information.
+
+### Data Format
+ ![alt text]( http://www.ece.ualberta.ca/~elliott/ee552/studentAppNotes/1999f/UART/uart-format.jpg)
+ 
+ ### Modules
+- Transmitter Module
+- Reciever Module
+- Clock Generator Module for adjusting baud_rate
+- error checking(frame_error, parity_check, over_run)
