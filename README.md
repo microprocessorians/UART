@@ -1,5 +1,5 @@
 # UART
-Implementation of Universal Asynchronous receiver and transmitter module in Fpga
+Implementation of Universal Asynchronous receiver and transmitter module in FPGA
 
 When do we need a UART?
 
