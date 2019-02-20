@@ -11,6 +11,11 @@ The UART system can tolerate a moderate amount of system noise without losing an
 
 ### Data Format
  ![alt text]( http://www.ece.ualberta.ca/~elliott/ee552/studentAppNotes/1999f/UART/uart-format.jpg)
+ > Four states
+ - sending start bit state
+ - shifting data and sending it
+ - sending parity bit
+ - sending stop bit
  
  ### Modules
 - Transmitter Module
