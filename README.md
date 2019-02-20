@@ -27,5 +27,15 @@ The UART system can tolerate a moderate amount of system noise without losing an
 
 | signal | Type | Description |
 | ------ | ------ | ------ |
-| I_CLK | Input CLK |
-| coming soon | coming soon |
+| I_CLK | Input | system clock |
+| I_clk_baud_count | Input | the number of cycles of I_clk between baud ticks |
+| I_reset | Input | reset line. ideally, reset whilst changing baud. |
+| I_tx_data | Input | data to transmit |
+| I_txSig | Input | signal to start transmitting |
+| O_txRdy | output | o:indicate uart in use 1:indicate not in use |
+| O_tx | output | serial output |
+| I_rx | Input | serial input |
+| I_rxcont | Input | signal to start recieve |
+| O_rxdata | output | data_recieved |
+| O_rxsig | output | uart reg is full |
+| O_rx_frameError | output | error in transmission and recieving operation |
