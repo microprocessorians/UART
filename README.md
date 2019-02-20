@@ -18,6 +18,8 @@ The UART system can tolerate a moderate amount of system noise without losing an
 - Clock Generator Module for adjusting baud_rate
 - error checking(frame_error, parity_check, over_run)
 
+> Transmitter Module
+
 | signal | Type | Description |
 | ------ | ------ | ------ |
 | I_CLK | Input CLK |
